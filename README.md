@@ -8,6 +8,11 @@ Easier asynchronous communication on top of Electron ipc communication using pro
 Sometimes you just need to ask something to the `main process` and wait for the response.  
 `electron-ipcp` makes this task easier.
 
+## Install
+
+If you use the [two package.json structure](https://www.electron.build/tutorials/two-package-structure), it might look like this:
+- install as devDependency in `package.json`
+- install as dependency in `app/package.json`
 
 ## Usage
 
