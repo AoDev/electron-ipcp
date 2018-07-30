@@ -1,0 +1,31 @@
+{
+  "name": "electron-ipcp",
+  "version": "1.0.0",
+  "description": "Easier asynchronous communication on top of Electron ipc communication using promises.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AoDev/electron-ipcp.git"
+  },
+  "keywords": [
+    "electron",
+    "ipc",
+    "promise",
+    "main",
+    "renderer",
+    "communication"
+  ],
+  "author": "Kevin Purnelle <kevin.purnelle@gmail.com> (http://kevinpurnelle.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AoDev/electron-ipcp/issues"
+  },
+  "homepage": "https://github.com/AoDev/electron-ipcp#readme",
+  "devDependencies": {
+    "standard-version": "4.4.0"
+  }
+}
